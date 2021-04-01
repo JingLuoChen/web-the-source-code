@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手写实现promise</title>
+    <script src="promise.js"></script>
+</head>
+<body>
+<script>
+    let sum = 1
+    let p1 = new Promise((resolve, reject) => {
+        if (sum === 0) {
+            resolve(sum)
+        } else {
+            reject(sum)
+        }
+    })
+    let p2 = p1.then((value) => {
+        console.log(1111, value)
+    }, (err) => {
+        console.log(1111, err)
+    }).then((value) => {
+        console.log(2222, value)
+    }, (err) => {
+        console.log(2222, err)
+    })
+    console.log(p1, 'p1')
+    console.log(p2, 'p2')
+</script>
+</body>
+</html>
