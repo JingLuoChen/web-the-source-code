@@ -49,4 +49,8 @@ class EventEmitter {
 
 /**
  * https://segmentfault.com/a/1190000014267382
+ *
+ * events是一个对象，用来存储事件名以及对应的回调函数，
+ *
+ * return this返回该实例，可以链式调用
  * */
