@@ -5,6 +5,24 @@
     <title>手写实现深拷贝</title>
 </head>
 <body>
+<script>
+    var set = new Set([['x', '1111'], [1, 'x'], [2, 'y'], [3, 'z']]);
+    set.add(['x', '1111'])
+    set.add('a')
+    let arr = set.values()
+    console.log(set, 'flag')
+    console.log(arr, 'arr')
+    console.log(Object.keys(arr), 'arr2')
 
+
+
+    var m = new Map([['x', '1111'], [1, 'x'], [2, 'y'], [3, 'z']]);
+    console.log(m.get('x'), '112233')
+    for (var x of m) { // 遍历Map
+        console.log(x[0] + '=' + x[1]);
+    }
+
+
+</script>
 </body>
 </html>
