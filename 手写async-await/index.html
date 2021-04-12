@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手下async/await</title>
+</head>
+<body>
+<script>
+    let quickSort = function(arr) {
+        if (arr.length <= 1) {
+            return arr
+        }
+        let index = Math.floor(arr.length / 2)
+        let flag = arr.splice(index, 1)
+        let left = []
+        let right = []
+        for (let i = 0; i<arr.length; i++) {
+            if (arr[i] < flag) {
+                left.push(arr[i])
+            } else {
+                right.push(arr[i])
+            }
+        }
+        return quickSort(left).concat([flag], quickSort(right))
+    }
+</script>
+</body>
+</html>
