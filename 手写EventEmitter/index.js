@@ -43,6 +43,13 @@ class EventEmitter {
         }
         this.on(event, func)
         return this
+
+
+        const func = (...args) => {
+            cb.apply(this, args)
+            this.off(event, func)
+        }
+        this.on()
     }
 }
 
