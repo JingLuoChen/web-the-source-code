@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/手写diff算法" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/手写mustache" />
     <property name="node.js.path.for.package.eslint" value="/usr/local/bin/node" />
     <property name="node.js.path.for.package.standard" value="/usr/local/bin/node" />
     <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
@@ -36,6 +36,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/手写mustache" />
       <recent name="$PROJECT_DIR$/手写diff算法" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -74,7 +75,8 @@
       <workItem from="1618887273914" duration="550000" />
       <workItem from="1618915645110" duration="586000" />
       <workItem from="1618933623988" duration="4210000" />
-      <workItem from="1641523174069" duration="13538000" />
+      <workItem from="1641523174069" duration="14268000" />
+      <workItem from="1642082799324" duration="482000" />
     </task>
     <servers />
   </component>
@@ -86,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

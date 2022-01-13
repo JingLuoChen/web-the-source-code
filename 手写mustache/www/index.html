@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="box"></div>
+<script src="/xuni/bundle.js"></script>
+<script>
+    let templateStr = `
+         <ul>
+            {{#arr}}
+                <li>
+                    学生{{name}}的爱好是</div>
+                    <ol>
+                        {{#hobby}}
+                        <li>{{.}}</li>
+                        {{/hobby}}
+                    </ol>
+                </li>
+            {{/arr}}
+        </ul>
+    `
+    let data = {
+        arr: [
+            { "name": "小明", "hobby": ['打篮球', '羽毛球']},
+            { "name": "小红", "hobby": ['打游戏', '自驾']},
+            { "name": "小强", "hobby": ['跑步', '徒步']}
+        ]
+    }
+    let domStr = zp_TemplateEngine.render(templateStr, data)
+    let box = document.getElementById('box')
+    box.innerHTML = domStr
+</script>
+</body>
+</html>
