@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbe6fd54-be19-4790-80db-2c53a771aec1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/手写响应式原理/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/Dep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/Observer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/Watcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/defineReactive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/observe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写响应式原理/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写响应式原理/www/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/手写mustache" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/手写响应式原理" />
     <property name="node.js.path.for.package.eslint" value="/usr/local/bin/node" />
     <property name="node.js.path.for.package.standard" value="/usr/local/bin/node" />
     <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
@@ -36,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/手写响应式原理" />
       <recent name="$PROJECT_DIR$/手写mustache" />
       <recent name="$PROJECT_DIR$/手写diff算法" />
       <recent name="$PROJECT_DIR$" />
@@ -76,7 +88,11 @@
       <workItem from="1618915645110" duration="586000" />
       <workItem from="1618933623988" duration="4210000" />
       <workItem from="1641523174069" duration="14268000" />
-      <workItem from="1642082799324" duration="482000" />
+      <workItem from="1642082799324" duration="700000" />
+      <workItem from="1642148504222" duration="1822000" />
+      <workItem from="1642315764133" duration="597000" />
+      <workItem from="1642395603288" duration="14000" />
+      <workItem from="1642498558010" duration="1305000" />
     </task>
     <servers />
   </component>
