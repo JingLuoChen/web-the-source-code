@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbe6fd54-be19-4790-80db-2c53a771aec1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/手写响应式原理/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/Dep.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/Observer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/Watcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/defineReactive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/observe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/手写响应式原理/src/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/手写响应式原理/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/手写响应式原理/www/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写diff算法/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写diff算法/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写diff算法/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写diff算法/createElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写diff算法/mySnabbdom/createElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写diff算法/h.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写diff算法/mySnabbdom/h.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写diff算法/isSameVnode.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写diff算法/mySnabbdom/isSameVnode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写diff算法/patch.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写diff算法/mySnabbdom/patch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写diff算法/patchVnode.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写diff算法/mySnabbdom/patchVnode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写diff算法/updateChildren.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写diff算法/mySnabbdom/updateChildren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写diff算法/vnode.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写diff算法/mySnabbdom/vnode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写mustache/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写mustache/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写响应式原理/src/defineReactive.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写响应式原理/src/defineReactive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写响应式原理/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写响应式原理/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,20 +38,25 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/手写响应式原理" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/手写diff算法/src" />
     <property name="node.js.path.for.package.eslint" value="/usr/local/bin/node" />
     <property name="node.js.path.for.package.standard" value="/usr/local/bin/node" />
     <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="/usr/local/lib/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/手写diff算法/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/手写diff算法/src" />
+      <recent name="$PROJECT_DIR$/手写diff算法" />
       <recent name="$PROJECT_DIR$/手写响应式原理" />
       <recent name="$PROJECT_DIR$/手写mustache" />
-      <recent name="$PROJECT_DIR$/手写diff算法" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -92,7 +99,8 @@
       <workItem from="1642148504222" duration="1822000" />
       <workItem from="1642315764133" duration="597000" />
       <workItem from="1642395603288" duration="14000" />
-      <workItem from="1642498558010" duration="1305000" />
+      <workItem from="1642498558010" duration="5298000" />
+      <workItem from="1642649972592" duration="946000" />
     </task>
     <servers />
   </component>

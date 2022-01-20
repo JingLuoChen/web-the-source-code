@@ -2,7 +2,7 @@ const path = require("path")
 
 module.exports = {
     mode: 'development',
-    entry: './src/index.js',
+    entry: './mySnabbdom/index.js',
     output: {
         filename: 'bundle.js'
     },

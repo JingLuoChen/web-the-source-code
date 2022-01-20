@@ -1,4 +1,4 @@
-import observe from './observe.js';
+ import observe from './observe.js';
 import Dep from './Dep.js';
 
 export default function defineReactive(data, key, val) {
